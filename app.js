@@ -106,7 +106,7 @@ var getInspired = function(tags) {
 								sort: 'creation'};
 	
 	var result = $.ajax({
-		url: "http://api.stackexchange.com/2.2/tags/top-answerers",
+		url: "http://api.stackexchange.com/2.2/tags/html/top-answerers",
 		data: request,
 		dataType: "jsonp",
 		type: "GET",
